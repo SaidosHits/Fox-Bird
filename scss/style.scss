@@ -1,0 +1,25 @@
+@use "components";
+@use 'global';
+
+
+body{
+    background-color: var(--Primary-color);
+    overflow-x: hidden;
+}
+body.active{
+    overflow: hidden;
+}
+.main-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+
+    @media screen and (max-width: 52.125rem) {
+        margin: 0 2.5rem;
+    }
+    @media screen and (width: 52.125rem) {
+        margin: 0 2.5rem;
+    }
+    @media screen and (max-width: 24.5625rem) {
+        margin: 0 1.25rem;
+    }
+}

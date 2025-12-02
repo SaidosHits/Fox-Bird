@@ -1,0 +1,14 @@
+:root{
+
+    /* fonts */
+    --H1-font-size: clamp(2rem, 3.608vw + 1.114rem, 4rem);
+    --H2-font-size:clamp(1.5rem, 1.804vw + 1.057rem, 2.5rem);
+    --H3-font-size:clamp(1.5rem, 0.902vw + 1.278rem, 2rem);
+    --H4-font-size:clamp(.900rem, 0.676vw + 0.584rem, 1.125rem);
+    --body-font-size:clamp(.75rem, -0.225vw + 1.055rem, 1rem);
+    --body-2-font-size:clamp(0.688rem, -0.564vw + 1.138rem, 1rem);
+    --font-links-size:clamp(0.875rem, -0.225vw + 1.055rem, 1rem);
+    --font-links2-size:clamp(0.875rem, -0.225vw + 1.055rem, 1.125rem);
+    --font-links3-size:clamp(1.125rem, -0.225vw + 1.055rem, 1.25rem);
+    --body-3-font-size:clamp(1.4rem, 1.047887323943662rem + 1.5023474178403755vw, 2.4rem);
+}

@@ -1,0 +1,47 @@
+
+.testimoni_container{
+    position: relative;
+    padding: 15rem 0rem;
+    background-color: var(--Primary-color);
+    text-align: center;
+    h1{
+        font-size: var(--H2-font-size);
+        text-align: center;
+        letter-spacing: -0.01em;
+    }
+}
+.swiper-slide{
+    background-color: red;
+}
+.testimoni_container{
+    position: relative;
+    p{
+        
+        font-size: var(--body-3-font-size);
+        color: white;
+        letter-spacing: -0.01em;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        span{
+            font-style: italic;
+            font-family: "Volkhov", serif;
+            font-weight: 600;
+        }
+    }
+}
+
+#svg_path{
+    position: absolute;
+    z-index: 1000;
+    top: 10%;
+    left: 0;
+    height: clamp(1.278rem, 20.608vw + 1.114rem, 9.5rem)
+}
+#svg_star{
+    height: clamp(3.7rem, 3.347887323943662rem + 1.5023474178403755vw, 4.7rem);
+    max-width: 100%;
+    position: absolute;
+    z-index: 1000;
+    bottom: 20%;
+    right: 0;
+}

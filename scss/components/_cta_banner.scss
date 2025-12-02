@@ -1,0 +1,106 @@
+@use '../utils/' as u;
+@use '../global/' as g;
+
+.coding-bootcamp-banner{
+    background-color: #121212;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    color: var(--text-white);
+    padding: 6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        animation: float 3s ease-in-out infinite;
+        max-width: clamp(30px, 8vw, 80px);
+    }
+}
+.bobbles_1{
+    bottom: 2%;
+    left: 30%;
+}
+.bobbles_2{
+    top: 5%;
+    right: 20%;
+}
+.bobbles_3{
+    bottom: 14%;
+    left: 63%;
+}
+.javascript_logo { top: 41%; left: 24%; }
+.typscript_logo { top: 66%; left: 16%; }
+.python_logo { top: 13%; left: 16%; }
+.svelt_logo { top: 41%; right: 24%; }
+.angular_logo { top: 66%; right: 16%; }
+.csharp_logo { top: 13%; right: 16%; }
+
+
+@media screen and (max-width: 100rem) {
+.javascript_logo { top: 41%; left: 5%; }
+.typscript_logo { top: 66%; left: 10%; }
+.python_logo { top: 13%; left: 10%; }
+.svelt_logo { top: 41%; right: 5%; }
+.angular_logo { top: 66%; right: 10%; }
+.csharp_logo { top: 13%; right: 10%; }
+}
+
+@media screen and (max-width: 37.5rem) {
+
+    .javascript_logo, .typscript_logo, .python_logo, .svelt_logo, .angular_logo, .csharp_logo {
+        display: none;
+    }
+}
+
+.coding-bootcamp-banner-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    h1{
+        font-size: var(--H2-font-size);
+        font-weight: 900;
+        letter-spacing: -0.01em;
+
+        span{
+            @media screen and (max-width: 37.5rem){
+            display: none;
+        }
+            img{
+                    position: relative;
+                    top: 7px;
+                    
+            }
+        }
+    }
+    p{
+        font-size: var(--body-font-size);
+        max-width: 26.1875rem;
+        font-family: 'Poppins', sans-serif;
+    };
+    button{
+        @extend %button-banner-cta;
+        position: relative;
+        width: 150px;
+        top: 2rem;
+        
+    }
+#arrow{
+    // stroke-dashoffset: 1000;
+    // stroke-dasharray: 1000;
+        position: relative;
+        height: auto;
+        max-width: 100%;
+        animation: ease-in-out 2s infinite;
+        left: 20%;
+        @media screen and (max-width: 37.5rem){
+            display: none;
+        }
+}
+}
+

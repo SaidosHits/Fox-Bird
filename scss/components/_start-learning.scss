@@ -1,0 +1,63 @@
+@use '../global/' as g;
+
+
+.start-learning{
+    background-color: #ffffff;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+.start-learning-container{
+    padding: 0px 5.625rem;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.6875rem;
+        @media screen and (max-width: 64rem) {
+        padding: 1.875rem 2.625rem;
+        }
+        @media screen and (max-width: 50rem) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: .625rem;
+            padding: 0px 1.625rem;
+        }
+}
+.start-learning-container_text{
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding-top: 2.5rem;
+       @media screen and (max-width: 50rem) {
+        max-width:  100%;
+        }
+    width: clamp(23rem, 20.85rem + 10.75vw, 33.75rem);
+    h1{
+        font-size: var(--H1-font-size);
+        letter-spacing: -0.01em;
+        font-weight: 700;
+    }
+    p{
+        font-size: var(--H4-font-size);
+        font-family: "Poppins", sans-serif;
+    }
+    button{
+        
+        @extend %button-base;
+    }
+}
+.start-learning-container_image{
+    position: relative;
+    max-width: 90rem;   
+    img{
+        position: relative;
+        display: block;
+        bottom: -10%;
+        width: clamp(23.0625rem, 21.9875rem + 5.375vw, 28.4375rem);
+        max-width: 100%;
+    }
+}

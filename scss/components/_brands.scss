@@ -1,0 +1,33 @@
+.brand_logos{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.brand_logos_container{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3.75rem;
+    margin-top: 1.125rem;
+    
+    img{
+        height: auto;
+        max-width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+        gap: 1.875rem;
+        
+    }
+    @media screen and (max-width: 700px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: auto;
+    @media screen and (max-width: 500px) {
+            img{
+            width: 108px;
+            }
+        }
+        
+    }
+    }

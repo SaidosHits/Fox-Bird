@@ -1,0 +1,48 @@
+@use '../utils/' as u;
+@use '../global/' as g;
+.hero-section {
+    display: flex;
+    padding: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0px;
+    @media screen and (max-width: 50rem) {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 8.125rem;
+        
+    }
+}
+.hero_section-text {
+    display: flex;
+    max-width: 31.25rem;
+    flex-direction: column;
+    gap: 1rem;
+    h1{
+    color: var(--text-white);
+    font-size: var(--H1-font-size);
+    letter-spacing: -0.01em;
+    }
+    p{
+    color: var(--text-white);
+    font-size: var(--body-font-size);
+    font-family: "Poppins", sans-serif;
+    }
+    button{
+        
+        @extend %button-base;
+    }
+}
+.hero_section-image {
+    
+    
+    img{
+        height: auto;
+        max-width: 100%;
+        
+    }
+}

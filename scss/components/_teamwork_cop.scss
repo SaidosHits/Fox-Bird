@@ -1,0 +1,40 @@
+.teamwork-showcase{
+    color: var(--text-white);
+}
+.teamwork-showcase_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.0625rem;
+    padding: 2rem 0rem;
+    @media screen and (max-width: 50rem) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: .625rem;
+        }
+    
+}
+.teamwork-showcase_dis{
+    max-width: 37.5rem;
+    h1{
+    font-size: var(--H2-font-size);
+    font-weight: 800;
+    max-width: 25ch;
+    }
+    p{
+        padding-top: .625rem;
+        font-size: var(--body-font-size);
+        font-family: "Poppins", sans-serif;
+    }
+    @media screen and (max-width: 64rem) {
+            max-width: 25rem;
+            gap: .625rem;
+        }
+}
+.teamwork-showcase-image{
+    img{
+        max-width: 100%;
+        width: clamp(24.0625rem, 22.65rem + 12.0625vw, 36.125rem);
+    }
+}
