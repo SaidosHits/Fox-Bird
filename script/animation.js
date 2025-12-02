@@ -79,13 +79,14 @@ inView(elements.Star_svg, () => {
 // Load Lottie animations
 
 
-loadLottieAnimation({ container: elements.Path, path: './Fox-Bird/lottie/Path.json' });
-loadLottieAnimation({ container: elements.feature1, path: './Fox-Bird/lottie/feature_1.json' });
-loadLottieAnimation({ container: elements.feature2, path: './Fox-Bird/lottie/feature_2.json' });
-loadLottieAnimation({ container: elements.feature3, path: './Fox-Bird/lottie/feature_3.json' });
+loadLottieAnimation({ container: elements.Path, path: './lottie/Path.json' });
+loadLottieAnimation({ container: elements.feature1, path: './lottie/feature_1.json' });
+loadLottieAnimation({ container: elements.feature2, path: './lottie/feature_2.json' });
+loadLottieAnimation({ container: elements.feature3, path: './lottie/feature_3.json' });
 loadLottieAnimation({ container: elements.heroImage, path: './lottie/Hero image_1.json' });
-loadLottieAnimation({ container: elements.T_image, path: './Fox-Bird/lottie/Team_work.json' });
-loadLottieAnimation({ container: elements.arrow, path: './Fox-Bird/lottie/arrow.json' });
+loadLottieAnimation({ container: elements.T_image, path: './lottie/Team_work.json' });
+loadLottieAnimation({ container: elements.arrow, path: './lottie/arrow.json' });
+
 
 
 
