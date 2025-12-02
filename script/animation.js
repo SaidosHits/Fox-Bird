@@ -83,9 +83,10 @@ loadLottieAnimation({ container: elements.Path, path: './Fox-Bird/lottie/Path.js
 loadLottieAnimation({ container: elements.feature1, path: './Fox-Bird/lottie/feature_1.json' });
 loadLottieAnimation({ container: elements.feature2, path: './Fox-Bird/lottie/feature_2.json' });
 loadLottieAnimation({ container: elements.feature3, path: './Fox-Bird/lottie/feature_3.json' });
-loadLottieAnimation({ container: elements.heroImage, path: './Fox-Bird/lottie/Hero image_1.json' });
+loadLottieAnimation({ container: elements.heroImage, path: './lottie/Hero image_1.json' });
 loadLottieAnimation({ container: elements.T_image, path: './Fox-Bird/lottie/Team_work.json' });
 loadLottieAnimation({ container: elements.arrow, path: './Fox-Bird/lottie/arrow.json' });
+
 
 
 
