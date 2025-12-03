@@ -14,10 +14,10 @@
         grid-template-columns: 1fr 1fr 1fr;
         }
     @media screen and (max-width: 26.5625rem) {
-    padding: 4.25rem 2rem;
-    row-gap: 2.875rem;
-    gap: 4.875rem;
-        grid-template-columns: 1fr 1fr;
+     padding: 4.25rem 2rem;
+     row-gap: 2.875rem;
+     gap: 3.875rem;
+     grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -65,4 +65,5 @@
     display: flex;
     gap: 1.875rem;
 }
+
 
