@@ -23,18 +23,18 @@ Fox Bird is a modern, interactive coding platform designed to help beginners and
 **Responsive Design** : Responsive Design for all devices
 
 ## Folder Structure
-
+                  
 │   index.html
-│
-├───images
-├───lottie
-├───script
-├───scss
-│   ├───components
-│   ├───global
+│                  
+├───images       
+├───lottie         
+├───script        
+├───scss          
+│   ├───components         
+│   ├───global         
 │   └───utils
-
-
+              
+               
 Check out the live preview of the website:  
    👉 [Live Preview](https://saidoshits.github.io/Fox-Bird/)
 
