@@ -30,9 +30,9 @@ Fox Bird is a modern, interactive coding platform designed to help beginners and
 ├───lottie         
 ├───script        
 ├───scss          
-│       ├───components         
-│       ├───global         
-│       └───utils
+│         ├───components         
+│         ├───global         
+│         └───utils
               
                
 Check out the live preview of the website:  
